@@ -1,0 +1,24 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+ErrorDocument 404 /404.php
+
+Options All -Indexes
+
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+<Files config.php>
+Order Allow,Deny
+Deny from all
+</Files>
+
+RewriteRule ^([0-9]+)-([a-zA-Z0-9_-]+).html$ ?frame=sanpham&id=$1
+RewriteRule ^category-([0-9]+)-([a-zA-Z0-9_-]+).html$ ?frame=danhmuc&dm_id=$1
+RewriteRule ^gioi-thieu.html$ ?frame=gioithieu
+RewriteRule ^huong-dan.html$ ?frame=huongdan
+RewriteRule ^chinh-sach-bao-hanh.html$ ?frame=chinhsachbaohanh
+RewriteRule ^chinh-sach-doi-tra-hang.html$ ?frame=chinhsachdoitrahang
+RewriteRule ^lien-he.html$ ?frame=lienhe

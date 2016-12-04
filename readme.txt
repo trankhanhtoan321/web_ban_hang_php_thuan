@@ -1,0 +1,32 @@
+$_SESSION['khachhang']={ten,sdt,email,diachi}
+$_SESSION['cart'][]={sp_id,sp_sl}
+$_SESSION['uid']===admin
+trankhanhtoan($key1,$key2,$limit)
+{
+	baohanh
+	code_tat_ca_san_pham
+	code_san_pham
+	check_makhuyenmai
+	chi_tiet_hoa_don
+	danh_muc
+	doitra
+	gioithieu
+	huongdan
+	id_hoa_don_moi_nhat
+	insert_hoa_don
+	insert_cthd
+	insert_lienhe
+	insert_sanpham
+	insert_khuyen_mai
+	san_pham_tim_kiem
+	hoa_don
+	san_pham_moi
+	san_pham_xem_nhieu
+	san_pham_danh_muc
+	san_pham
+	update_gioithieu
+	update_baohanh
+	update_huongdan
+	update_doitra
+}
+banner khuyen mai: uploads/images/banner/khuyenmai.jpg
